@@ -5,17 +5,27 @@ pip install pynput
 # code
 
 import os
+
 from pynput.keyboard import Key, Controller
+
 import time
 
 n = (0)
+
 kb = Controller()
 
+
 print(n)
+
 while n == 0:
+
     time.sleep(2.268)
+    
     kb.press(Key.down)
+    
     kb.release(Key.down)
+    
     kb.release(Key.left)
+    
     kb.press(Key.left)
 
