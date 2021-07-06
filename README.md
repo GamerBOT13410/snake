@@ -1,1 +1,2 @@
-# snake
+# cmd
+pip install pynput
